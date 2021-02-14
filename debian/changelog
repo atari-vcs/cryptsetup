@@ -1,3 +1,11 @@
+cryptsetup (2:2.1.0-5+deb10u2co1) apertis; urgency=medium
+
+  [ Apertis package maintainers ]
+  * Import Apertis version 2:2.1.0-5+deb10u2
+  * Add d/apertis/component and set component to target
+
+ -- Emanuele Aina <emanuele.aina@collabora.com>  Sun, 14 Feb 2021 02:05:47 +0000
+
 cryptsetup (2:2.1.0-5+deb10u2) buster; urgency=medium
 
   * Cherry pick upstream commit 8f8f0b32: Fix mapped segments overflow on
