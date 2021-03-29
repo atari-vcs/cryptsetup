@@ -40,6 +40,10 @@ Files: docs/examples/*
 Copyright: 2011-2020, Red Hat, Inc.
 License: LGPL-2.1+
 
+Files: docs/v1.6.0-ReleaseNotes
+Copyright: no-info-found
+License: GPL
+
 Files: lib/*
 Copyright: no-info-found
 License: GPL-2+
@@ -157,13 +161,13 @@ Copyright: 2018-2020, Ondrej Kozina
 License: LGPL-2.1+
 
 Files: lib/verity/*
-Copyright: 2011-2020, Red Hat, Inc.
+Copyright: no-info-found
 License: LGPL-2.1+
 
-Files: lib/verity/rs.h
- lib/verity/rs_decode_char.c
- lib/verity/rs_encode_char.c
-Copyright: no-info-found
+Files: lib/verity/verity.c
+ lib/verity/verity.h
+ lib/verity/verity_hash.c
+Copyright: 2011-2020, Red Hat, Inc.
 License: LGPL-2.1+
 
 Files: lib/verity/verity_fec.c
