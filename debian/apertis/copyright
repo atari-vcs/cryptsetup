@@ -1,0 +1,252 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: debian/*
+Copyright: no-info-found
+License: GPL-2+
+
+Files: debian/askpass.c
+Copyright: 2008, David Härdeman <david@hardeman.nu>
+License: GPL-2+
+
+Files: debian/bash_completion/*
+Copyright: 2013, Claudius Hubig <cl_crds@chubig.net>, 2-clause BSD
+License: GPL-2+
+
+Files: debian/cryptsetup.apport
+Copyright: no-info-found
+License: GPL-2+
+
+Files: debian/initramfs/cryptroot-unlock
+Copyright: 2015-2018, Guilhem Moulin <guilhem@debian.org>
+License: GPL-2+
+
+Files: debian/scripts/cryptdisks_start
+Copyright: 2007, Jon Dowland <jon@alcopop.org>
+License: GPL-2+
+
+Files: debian/scripts/cryptdisks_stop
+Copyright: 2008, Jonas Meurer <jonas@freesources.org>
+License: GPL-2+
+
+Files: debian/scripts/luksformat
+Copyright: 2005, Canonical Ltd.
+License: GPL-2+
+
+Files: debian/scripts/passdev.c
+Copyright: 2008, David Härdeman <david@hardeman.nu>
+License: GPL-2+
+
+Files: docs/examples/*
+Copyright: 2011-2020, Red Hat, Inc.
+License: LGPL-2.1+
+
+Files: docs/v1.6.0-ReleaseNotes
+Copyright: no-info-found
+License: GPL
+
+Files: lib/*
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/base64.c
+ lib/base64.h
+Copyright: 1999-2001, 2004-2006, 2009-2019, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: lib/bitlk/*
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/bitops.h
+Copyright: no-info-found
+License: public-domain
+
+Files: lib/crypt_plain.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/crypto_backend/*
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/crypto_backend/argon2/encoding.c
+Copyright: 2015, Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves
+License: CC0-1.0
+
+Files: lib/crypto_backend/crypto_openssl.c
+Copyright: no-info-found
+License: LGPL-2.1+ with OpenSSL~LGPL exception
+
+Files: lib/crypto_backend/crypto_storage.c
+Copyright: 2014-2020, Milan Broz
+License: LGPL-2.1+
+
+Files: lib/crypto_backend/pbkdf2_generic.c
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/crypto_backend/pbkdf_check.c
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/integrity/*
+Copyright: 2014-2020, Milan Broz
+License: LGPL-2.1+
+
+Files: lib/loopaes/*
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/luks1/*
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/luks1/keyencryption.c
+ lib/luks1/keymanage.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/luks2/*
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/luks2/luks2_json_metadata.c
+ lib/luks2/luks2_luks1_convert.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/luks2/luks2_keyslot_reenc.c
+ lib/luks2/luks2_reencrypt.c
+ lib/luks2/luks2_segment.c
+ lib/luks2/luks2_token_keyring.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/random.c
+ lib/utils_blkid.c
+ lib/utils_blkid.h
+ lib/utils_fips.c
+ lib/utils_fips.h
+Copyright: 2010-2020, Red Hat, Inc.
+License: GPL-2+
+
+Files: lib/tcrypt/*
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/utils_benchmark.c
+ lib/utils_loop.c
+ lib/utils_loop.h
+ lib/utils_pbkdf.c
+ lib/utils_safe_memory.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/utils_crypt.c
+ lib/utils_crypt.h
+ lib/utils_wipe.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/utils_device_locking.c
+ lib/utils_device_locking.h
+ lib/utils_keyring.c
+ lib/utils_keyring.h
+Copyright: no-info-found
+License: GPL-2+
+
+Files: lib/utils_storage_wrappers.c
+ lib/utils_storage_wrappers.h
+Copyright: 2018-2020, Ondrej Kozina
+License: LGPL-2.1+
+
+Files: lib/verity/*
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/verity/verity.c
+ lib/verity/verity.h
+ lib/verity/verity_hash.c
+Copyright: 2011-2020, Red Hat, Inc.
+License: LGPL-2.1+
+
+Files: lib/verity/verity_fec.c
+Copyright: no-info-found
+License: LGPL-2.1+
+
+Files: lib/volumekey.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: misc/*
+Copyright: 2012, 2016-2020, Milan Broz <gmazyland@gmail.com>
+License: GPL-2+
+
+Files: misc/dracut_90reencrypt/*
+Copyright: ed material is made available to anyone wishing to use, / 2012, Milan Broz <gmazyland@gmail.com>
+License: GPL-2
+
+Files: misc/keyslot_checker/chk_luks_keyslots.c
+Copyright: 2012, Arno Wagner <arno@wagner.name>
+License: GPL-2+
+
+Files: misc/luks-header-from-active
+Copyright: ed material is made available to anyone wishing to use, / 2010-2012, Milan Broz <gmazyland@gmail.com>
+License: GPL-2
+
+Files: src/*
+Copyright: no-info-found
+License: GPL-2+
+
+Files: src/cryptsetup.c
+ src/cryptsetup.h
+ src/utils_tools.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: src/utils_blockdev.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: src/utils_luks2.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: tests/*
+Copyright: no-info-found
+License: GPL-2+
+
+Files: tests/crypto-vectors.c
+Copyright: 2018-2020, Milan Broz
+License: GPL-2+
+
+Files: tests/differ.c
+ tests/unit-utils-io.c
+Copyright: 2010-2020, Red Hat, Inc.
+License: GPL-2+
+
+Files: tests/test_utils.c
+Copyright: no-info-found
+License: GPL-2+
+
+Files: * docs/* man/* man/cryptsetup.8 man/integritysetup.8 man/veritysetup.8 misc/keyslot_checker/* tests/bitlk-images.tar.xz tests/blkid-luks2-pv.img.xz tests/compatimage.img.xz tests/compatimage2.img.xz tests/compatv10image.img.xz tests/conversion_imgs.tar.xz tests/evil_hdr-keyslot_overlap.xz tests/evil_hdr-luks_hdr_damage.xz tests/evil_hdr-payload_overwrite.xz tests/evil_hdr-small_luks_device.xz tests/evil_hdr-stripes_payload_dmg.xz tests/evil_hdr-small_luks_device.xz tests/evil_hdr-stripes_payload_dmg.xz tests/img_fs_ext4.img.xz tests/img_fs_vfat.img.xz tests/img_fs_xfs.img.xz tests/luks1-images.tar.xz tests/luks2_header_requirements.xz tests/luks2_header_requirements_free.xz tests/luks2_keyslot_unassigned.img.xz tests/luks2_mda_images.tar.xz tests/luks2_valid_hdr.img.xz tests/tcrypt-images.tar.xz tests/valid_header_file.xz
+Copyright: © 2004      Christophe Saout <christophe@saout.de>
+ © 2004-2008 Clemens Fruhwirth <clemens@endorphin.org>
+ © 2008-2019 Red Hat, Inc.
+ © 2008-2019 Milan Broz <gmazyland@gmail.com>
+License: GPL-2+ with OpenSSL exception
+
+Files: lib/crypto_backend/argon2/*
+Copyright: © 2015 Daniel Dinu
+ © 2015 Dmitry Khovratovich
+ © 2015 Jean-Philippe Aumasson
+ © 2015 Samuel Neves
+License: CC0 or Apache-2.0
+
+Files: lib/crypto_backend/crc32.c
+Copyright: © 1986 Gary S. Brown
+License: public-domain
+ Gary S. Brown's licence is as follows:
+ .
+ You may use this program, or code or tables extracted from it, as
+ desired without restriction.
